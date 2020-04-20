@@ -108,7 +108,7 @@ let s:gb.light4      = ['#a89984', 246]     " 168-153-132
 let s:gb.light4_256  = ['#a89984', 246]     " 168-153-132
 
 let s:gb.bright_red     = ['#fb4934', 167]     " 251-73-52
-let s:gb.bright_green   = ['#b8bb26', 142]     " 184-187-38
+let s:gb.bright_green   = ['#87d787', 142]     " 184-187-38
 let s:gb.bright_yellow  = ['#fabd2f', 214]     " 250-189-47
 let s:gb.bright_blue    = ['#83a598', 109]     " 131-165-152
 let s:gb.bright_purple  = ['#d3869b', 175]     " 211-134-155
@@ -116,7 +116,7 @@ let s:gb.bright_aqua    = ['#8ec07c', 108]     " 142-192-124
 let s:gb.bright_orange  = ['#fe8019', 208]     " 254-128-25
 
 let s:gb.neutral_red    = ['#cc241d', 124]     " 204-36-29
-let s:gb.neutral_green  = ['#98971a', 106]     " 152-151-26
+let s:gb.neutral_green  = ['#51A054', 106]     " 152-151-26
 let s:gb.neutral_yellow = ['#d79921', 172]     " 215-153-33
 let s:gb.neutral_blue   = ['#458588', 66]      " 69-133-136
 let s:gb.neutral_purple = ['#b16286', 132]     " 177-98-134
@@ -124,7 +124,7 @@ let s:gb.neutral_aqua   = ['#689d6a', 72]      " 104-157-106
 let s:gb.neutral_orange = ['#d65d0e', 166]     " 214-93-14
 
 let s:gb.faded_red      = ['#9d0006', 88]      " 157-0-6
-let s:gb.faded_green    = ['#79740e', 100]     " 121-116-14
+let s:gb.faded_green    = ['#6CBB6D', 100]     " 121-116-14
 let s:gb.faded_yellow   = ['#b57614', 136]     " 181-118-20
 let s:gb.faded_blue     = ['#076678', 24]      " 7-102-120
 let s:gb.faded_purple   = ['#8f3f71', 96]      " 143-63-113
@@ -930,17 +930,17 @@ hi! link diffLine GruvboxBlue
 " }}}
 " Html: {{{
 
-hi! link htmlTag GruvboxBlue
-hi! link htmlEndTag GruvboxBlue
+hi! link htmlTag GruvboxGray
+hi! link htmlEndTag GruvboxGray
 
-hi! link htmlTagName GruvboxAquaBold
-hi! link htmlArg GruvboxAqua
+hi! link htmlTagName GruvboxPurpleBold
+hi! link htmlArg GruvboxRed
 
 hi! link htmlScriptTag GruvboxPurple
 hi! link htmlTagN GruvboxFg1
 hi! link htmlSpecialTagName GruvboxAquaBold
 
-call s:HL('htmlLink', s:fg4, s:none, s:underline)
+call s:HL('htmlLink', s:fg2, s:none, s:underline)
 
 hi! link htmlSpecialChar GruvboxOrange
 
